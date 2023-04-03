@@ -1,0 +1,14 @@
+---
+- name: install flatpaks from flathub
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - name: installing flatpak list
+      community.general.flatpak:
+        name:
+          - com.bitwarden.desktop             # Bitwarden
+          - com.heroicgameslauncher.hgl       # Heroic games launcher
+          - net.lutris.Lutris                 # Lutris
+          - org.mozilla.firefox               # Firefox 
+        state: present
