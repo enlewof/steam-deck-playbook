@@ -1,5 +1,5 @@
 ---
-- name: install emudeck
+- name: download emudeck
   hosts: localhost
   gather_facts: no
   
