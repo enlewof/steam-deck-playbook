@@ -9,6 +9,7 @@
         name:
           - com.bitwarden.desktop             # Bitwarden
           - com.heroicgameslauncher.hgl       # Heroic games launcher
+          - com.microsoft.Edge                # Microsoft Edge
           - net.lutris.Lutris                 # Lutris
           - org.mozilla.firefox               # Firefox 
         state: present
