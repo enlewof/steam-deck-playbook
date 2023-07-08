@@ -1,0 +1,14 @@
+---
+- name: download emudeck and nonsteam launchers
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - name: Download (but not run or install) the EmuDeck installer
+      get_url:
+        url: https://www.emudeck.com/EmuDeck.desktop
+        dest: /home/deck/Desktop/EmuDeck.desktop
+    - name: Download (but not run or install) the NonSteamLaunchers installer
+      get_url:
+        url: https://github.com/cchrkk/NSLOSD-DL/releases/download/DlLinkFix/NonSteamLaunchers.desktop
+        dest: /home/deck/Desktop/NonSteamLaunchers.desktop
