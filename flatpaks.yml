@@ -11,5 +11,6 @@
           - com.heroicgameslauncher.hgl       # Heroic games launcher
           - com.microsoft.Edge                # Microsoft Edge
           - net.lutris.Lutris                 # Lutris
-          - org.mozilla.firefox               # Firefox 
+          - org.mozilla.firefox               # Firefox
+          - tv.kodi.Kodi                      # Kodi
         state: present
