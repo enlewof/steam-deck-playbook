@@ -5,3 +5,4 @@
   
   tasks:
     - name: Set Xenia to retail mode
+    - name: Create a RPCS3 custom patch file
